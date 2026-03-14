@@ -1,6 +1,5 @@
 {
   "name": "Kunta Mallik Raj",
-  "title": "Backend Engineer",
   "contact": {
     "email": "kuntamallikraj@gmail.com",
     "phone": "+91-78159-00652",
@@ -8,32 +7,97 @@
     "github": "https://github.com/KuntaMallikRaj",
     "leetcode": "https://leetcode.com/u/mallik_1503/"
   },
-  "skills": {
-    "languages": ["Python", "Java", "C++"],
-    "backend": ["Flask", "REST APIs", "WebSockets"],
-    "databases": ["PostgreSQL", "MySQL", "Redis"],
-    "cloud": ["AWS", "Docker", "ArgoCD"]
-  },
   "experience": [
     {
-      "company": "eSentire",
+      "company": "eSentire Pvt. Ltd.",
+      "location": "Ontario, Canada | Remote",
       "role": "Software Engineer I",
-      "duration": "May 2025 - Present"
+      "duration": "May 2025 - Present",
+      "responsibilities": [
+        "Owned investigation and resolution of P0/P1 production incidents across distributed backend services, debugging failures across SNS pipelines, microservices, ServiceNow, and Slack integrations.",
+        "Re-architected a multi-tenant WebSocket platform supporting real-time SOC collaboration with schema validation, backpressure handling, and Redis-backed session isolation.",
+        "Identified inefficient database queries and contention in DarkWeb asset processing workflows, reducing 18+ second latency and improving production API response times.",
+        "Designed distributed state synchronization ensuring consistency of 'Awaiting Customer Actions' and findings status across Executive Reports and SOC dashboards.",
+        "Implemented concurrent editor detection using optimistic locking to prevent conflicting updates in collaborative investigation pipelines.",
+        "Strengthened platform security with input validation, rate limiting, and tenant-aware Redis session management.",
+        "Built event-driven backend workflows to propagate severity, confidence, and category updates across SOC investigation pipelines."
+      ]
+    },
+    {
+      "company": "GeeksforGeeks",
+      "location": "Remote",
+      "role": "Technical Content Writer Intern",
+      "duration": "Oct 2023 - Apr 2024",
+      "responsibilities": [
+        "Authored technical articles on Data Structures, Algorithms, and JavaScript.",
+        "Reviewed and improved production-grade code samples for correctness, performance, and readability."
+      ]
     }
   ],
+  "technical_skills": {
+    "languages": ["C++", "Java", "Python"],
+    "backend_and_distributed_systems": [
+      "Flask",
+      "REST APIs",
+      "WebSockets",
+      "Microservices",
+      "Event-Driven Architecture"
+    ],
+    "databases_and_caching": [
+      "MySQL",
+      "PostgreSQL",
+      "Redis",
+      "Query Optimization",
+      "Indexing"
+    ],
+    "cloud_and_infrastructure": [
+      "AWS EC2",
+      "AWS ALB",
+      "AWS S3",
+      "AWS SNS",
+      "Docker",
+      "ArgoCD",
+      "CI/CD Pipelines"
+    ],
+    "monitoring_and_observability": [
+      "Grafana",
+      "AWS CloudWatch Logs"
+    ],
+    "concepts": [
+      "Distributed Systems",
+      "Concurrency Control",
+      "Scalability",
+      "System Design"
+    ]
+  },
   "projects": [
     {
       "name": "AI Meeting Minutes Generator",
-      "stack": ["Python", "Flask", "LangChain"]
+      "technologies": [
+        "Python",
+        "Flask",
+        "Hugging Face",
+        "LangChain"
+      ],
+      "github": "https://github.com/KuntaMallikRaj/ai-meeting-minutes",
+      "description": [
+        "Built an end-to-end system converting meeting transcripts into structured summaries and action items using LLM-based summarization.",
+        "Implemented NLP pipelines for summarization, action-item extraction, and semantic search using Hugging Face Transformers and LangChain.",
+        "Integrated Chroma vector database for embedding-based retrieval enabling contextual search across large transcript datasets.",
+        "Reduced manual documentation time by automatically generating structured meeting summaries."
+      ]
     }
   ],
   "achievements": [
-    "LeetCode Rating 1719",
-    "Solved 1000+ problems"
+    "LeetCode Rating 1719 (Top 12% globally), solved 1000+ algorithmic problems.",
+    "Global Rank 1102 / 27,473 in LeetCode Biweekly Contest 143.",
+    "AIR 32 — Next Wave Biweekly Contest 4.",
+    "Department Topper for three consecutive years (2023–2025); awarded Silver Medal for academic excellence."
   ],
   "education": {
-    "degree": "B.Tech Information Technology",
-    "college": "Vignan Institute of Technology and Science",
-    "cgpa": "8.32"
+    "degree": "Bachelor of Technology (B.Tech) in Information Technology",
+    "institution": "Vignan Institute of Technology and Science, Hyderabad (JNTUH)",
+    "duration": "2021 - 2025",
+    "cgpa": "8.32 / 10"
   }
 }
