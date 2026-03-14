@@ -22,7 +22,7 @@ def get_resume():
 
 @app.get("/resume/skills")
 def get_skills():
-    return resume["skills"]
+    return resume["technical_skills"]
 
 
 @app.get("/resume/experience")
