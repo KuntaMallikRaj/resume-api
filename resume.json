@@ -1,0 +1,39 @@
+{
+  "name": "Kunta Mallik Raj",
+  "title": "Backend Engineer",
+  "contact": {
+    "email": "kuntamallikraj@gmail.com",
+    "phone": "+91-78159-00652",
+    "linkedin": "https://linkedin.com/in/kuntamallikraj",
+    "github": "https://github.com/KuntaMallikRaj",
+    "leetcode": "https://leetcode.com/u/mallik_1503/"
+  },
+  "skills": {
+    "languages": ["Python", "Java", "C++"],
+    "backend": ["Flask", "REST APIs", "WebSockets"],
+    "databases": ["PostgreSQL", "MySQL", "Redis"],
+    "cloud": ["AWS", "Docker", "ArgoCD"]
+  },
+  "experience": [
+    {
+      "company": "eSentire",
+      "role": "Software Engineer I",
+      "duration": "May 2025 - Present"
+    }
+  ],
+  "projects": [
+    {
+      "name": "AI Meeting Minutes Generator",
+      "stack": ["Python", "Flask", "LangChain"]
+    }
+  ],
+  "achievements": [
+    "LeetCode Rating 1719",
+    "Solved 1000+ problems"
+  ],
+  "education": {
+    "degree": "B.Tech Information Technology",
+    "college": "Vignan Institute of Technology and Science",
+    "cgpa": "8.32"
+  }
+}
