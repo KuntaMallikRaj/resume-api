@@ -38,3 +38,7 @@ def get_projects():
 @app.get("/resume/contact")
 def get_contact():
     return resume["contact"]
+
+@app.get("/resume/education")
+def get_education():
+    return resume["education"]
